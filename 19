@@ -1,0 +1,2 @@
+docker run  -it --name Abathur -v ~/Docker:/root -p 3000:3000 -d python:2-slim sh -c 'pip install flask flask-sqlalchemy flask-admin && apt-get update && apt-get install -y build-essential emacs'
+docker cp 19.py Abathur:/
