@@ -9,6 +9,7 @@
 # go run hello.go
 
 FROM    ubuntu
+LABEL   maintainer="Iuliia Iliuk iiliuk@student.42.us.org"
 
 RUN     mkdir -p /goroot && \
         apt-get update && \
